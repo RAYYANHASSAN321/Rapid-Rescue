@@ -1,0 +1,1173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 991px) {
+    .aboutSec h1 {
+        font-size: 28px;
+    }
+    .aboutSec p {
+        font-size: 16px;
+    }
+    .experiences p {
+        font-size: 4px;
+    }
+    .ambulance-img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutSec h1 {
+        font-size: 24px;
+    }
+    .aboutSec p {
+        font-size: 14px;
+    }
+    .experiences p {
+        font-size: 12px;
+    }
+    .ambulance-img {
+       display: none;
+    }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b71c1c;
+}
+
+.ambulance-img {
+    position: absolute;
+    right: 0; /* Image will stick to the right side */
+    bottom: 0;
+    transform: translateX(-5%); /* Initially the image will be off-screen to the right */
+    transition: transform 1s ease; /* Smooth transition effect */
+}
+
+
+.nav-link:hover{
+    color: #0752e8;
+}
+
+.navbar-links a {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    line-height: 30px;
+}
+
+.navbar-links a:hover{
+    color: #3E8CFF;
+}
+
+/* .appointmentBtn{
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(62,140,255);
+    
+} */
+
+button.appointmentBtn.btn.btn-primary {
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 11px;
+    outline-style: none;
+}
+
+button.appointmentBtn.btn.btn-primary:hover {
+    background-color: rgb(7, 48, 110);
+}
+
+
+.bookapp {
+    width: 250px;
+    height: 55px;
+    margin-bottom: 30px;
+    padding: 0;
+    font-family: popins, sans-serif;
+    font-size: 13px;
+    background: linear-gradient(to top left, #b71c1c 50%, #ff5252 50%);
+    background-size: 200% 200%;
+    background-position: bottom right;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    border: none;
+    font-weight: bold;
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+    outline-style: none;
+    transition: all 1s ease-in-out;
+}
+
+.bookapp:hover {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    background-size: 200% 200%;
+    background-position: bottom right 90%; /* Moves color from bottom right to the middle */
+    color: rgb(255, 255, 255);
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+.text-section {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.bgimg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.headerSectionBG span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #141414;
+    font-family: Poppins, sans-serif;
+}
+
+.headerSectionBG h1 {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #141414;
+    font-family: Poppins, sans-serif;
+}
+
+.headerSectionBG p {
+    /* margin-top: 25px; */
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.secondSec {
+    position: relative;
+    bottom: 30px;
+    background-color: rgb(243, 250, 255);
+    height: auto;
+
+
+}
+
+.imgtext h3 {
+    font-size: 21px;
+}
+
+.imgtext p {
+    font-size: 14px;
+}
+
+.icons {
+    background-color: rgb(62, 140, 255);
+    width: 100px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 13px;
+    margin-right: 20px;
+
+}
+
+.doctors img {
+    background: none;
+}
+
+
+
+.brder a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #141414;
+    border-bottom: 3px solid rgb(62, 140, 255);
+    font-weight: 500;
+}
+
+.brder a:hover {
+    color: rgb(62, 140, 255);
+    font-weight: 500;
+}
+
+
+
+.thirdPA {
+    height: auto;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.textAbout {
+    font-size: 15px;
+    padding-left: 5px;
+    font-weight: 600;
+    color: #b71c1c !important;
+    font-family: "DM Sans", sans-serif;
+}
+
+.experiences {
+    background-color: #b71c1c !important;
+    height: auto;
+    margin-top: 30px;
+
+}
+
+.aboutappointmentbtn {
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(62, 140, 255);
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.aboutappointmentbtn:hover {
+    background-color: transparent;
+    border: 3px solid rgb(62, 140, 255);
+}
+
+.checked {
+    font-size: 27px;
+    color: rgb(62, 140, 255);
+}
+
+.aboutSec {
+    margin-top: 0px;
+}
+
+.para {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+}
+
+.aboutSec h1 {
+    margin-top: 15px;
+    font-weight: 800;
+    color: #141414;
+    font-family: poppins, sans-serif;
+}
+
+.aboutSec p {
+    margin-top: 20px;
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+
+
+.textdepartment {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3E8CFF;
+}
+
+.viewAllServicesbtn {
+    margin-top: 20px;
+    width: 60%;
+    height: 70px;
+    background-color: rgb(62, 140, 255);
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-weight: 700;
+
+}
+
+.viewAllServicesbtn:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid rgb(62, 140, 255);
+}
+
+
+.departments h1 {
+    margin-top: 15px;
+    font-weight: 800;
+    color: #141414e8;
+    font-size: 40px;
+    font-family: poppins, sans-serif;
+}
+
+.mainDiv {
+    /* line-height: 50px; */
+    background-color: rgb(243, 250, 255);
+    transition: 10s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s
+}
+
+.mainDiv:hover {
+    /* position: relative;
+    bottom: 20px; */
+    background-color: white;
+    border: 2px solid rgb(62, 140, 255);
+    transform: scale(1.05);
+    /* transform : scale(1.1); */
+}
+
+
+.headingsDepartment {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s;
+}
+
+.headingsDepartment:hover {
+    color: rgb(62, 140, 255);
+}
+
+.fourthDiv p {
+    margin-top: 15px;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: "DM Sans", sans-serif;
+    color: #555555;
+}
+
+.readmoreBtn {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    border-bottom: 3px solid rgb(62, 140, 255);
+    padding-bottom: 4px;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s
+}
+
+.readmoreBtn:hover {
+    color: rgb(62, 140, 255);
+}
+
+.backgroundDepartmentIcons {
+    position: relative;
+    bottom: 50px;
+    /* text-align: center; */
+    border-radius: 100%;
+    border: 4px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(62, 140, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midDiv {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* flex-direction: column; */
+}
+
+.GETANAPPOINTMENt {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* margin-bottom: 100px; */
+    background-color: rgb(7, 48, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textGetAppointment {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+    font-weight: 600;
+    color:#3E8CFF;
+}
+
+.GETANAPPOINTMENt h1 {
+    margin-top: 15px;
+    font-weight: 800;
+    color: white;
+    font-family: poppins, sans-serif;
+}
+
+.GETANAPPOINTMENt p {
+    margin-top: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+
+.input-fields input,textarea{
+    outline: none;
+    border: none;
+    padding: 30px;
+    padding-left: 45px;
+    width: 100%;
+    height: 50px;
+    /* display: flex; */
+    
+}
+
+.input-fields input::placeholder{
+    color: #555555;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.input-fields img{
+    position: absolute;
+    padding-left: 10px;
+}
+
+.BookAPPOINTMENTBTN {
+    margin-top: 20px;
+    width: 40%;
+    height: 60px;
+    background-color: rgb(62, 140, 255);
+    font-size: 14px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.BookAPPOINTMENTBTN:hover {
+    background-color: transparent;
+    border: 2px solid rgb(62, 140, 255);
+}
+
+.BookAPPOINTMENT span{
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.BookphoneBTN {
+    margin-top: 20px;
+    width: 13%;
+    height: 60px;
+    background-color: transparent;
+    font-size: 14px;
+    border: 2px solid rgb(62, 140, 255);
+    color: white;
+    font-weight: 700;
+    
+}
+
+
+
+.nomber {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    margin-left: 7px;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s
+}
+
+.nomber:hover {
+    color: #0752e8;
+}
+
+.callUS{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    margin-left: 7px;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s
+}
+
+.callUS:hover {
+    color: rgb(62, 140, 255);
+}
+
+
+.textGetbenifits {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color:#3E8CFF;
+    padding-left: 5px;
+}
+
+.BENEFITSOFCONSULTATION{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BENEFITSOFCONSULTATION h1 {
+    margin-top: 15px;
+    font-weight: 800;
+    color: black;
+    font-family: poppins, sans-serif;
+}
+
+.BENEFITSOFCONSULTATION p {
+    margin-top: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+
+.BENEFITSOFCONSULTATIONSubDiv{
+    width: 100%;
+    height: 75px;
+    border: 1px solid #3E8CFF;
+    background-color: #f3faff;
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.BENEFITSOFCONSULTATIONSubDivhref{
+    color: black;
+    text-decoration: none;
+}
+
+.BENEFITSOFCONSULTATIONSubDiv {
+    /* line-height: 50px; */
+    background-color: rgb(243, 250, 255);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s
+}
+
+.BENEFITSOFCONSULTATIONSubDiv:hover {
+    box-shadow: 5px 5px 5px grey;
+    background-color: white;
+    border: 2px solid rgb(62, 140, 255);
+    /* transform: scale(1.05); */
+    /* transform : scale(1.1); */
+}
+
+.backg{
+    width: 55px;
+    height: 50px;
+    background-color: #3E8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mid{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.bgdentist{
+    height: 300px;
+    /* border: 2px solid #141414; */
+  
+}
+
+.sayHello{
+    background-color: #3E8CFF;
+    width: 170px;
+    height: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+
+}
+
+.sayHello h5{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+ 
+}
+
+.TESTIMONIALSdiv{
+    height: auto;
+    width: 100%;
+    background-color: #f3faff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.divnotes{
+    height: auto;
+    /* padding-left: 80px; */
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: rgb(7, 48, 110);
+    display: flex;
+}
+
+
+.iconBG{
+    
+    /* bottom: 50px; */
+    /* text-align: center; */
+    border-radius: 100%;
+    /* border: 4px solid white; */
+    width: 70px;
+    height: 70px;
+    background-color: #3E8CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.small h2{
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+}
+
+
+.small h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: white;
+    line-height: 10px;
+
+}
+
+.small h6{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    line-height: 5px;
+
+}
+
+.divOURBLOG{
+    background-color: #f3faff;
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.divOURBLOG h1{
+    margin-top: 10px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+
+.divOURBLOG span{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px ;
+}
+
+.Ourblog{
+    margin-top: 60px;
+    /* width: 320px; */
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    
+}
+
+.smallbtn{
+    width: 130px;
+    padding: 5px;
+    background-color: #f0f6ff;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #3E8CFF ;
+    color: #3E8CFF;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s
+}
+
+.smallbtn:hover{
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    
+}
+
+.calendericons span{
+    font-size: 13px;
+    color: #555555a9;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    margin-left: 5px;
+}
+
+
+.moreArticlesbtn {
+    margin-top: 20px;
+    width: 25%;
+    height: 70px;
+    background-color: rgb(62, 140, 255);
+    font-size: 14px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.moreArticlesbtn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(62, 140, 255);
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.mediaLinks{
+    display: flex;
+}
+
+.mediaLinksBgs{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    border: 2px solid #ff5858;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s;
+    cursor: pointer;
+}
+
+.mediaLinksBgs:hover{
+    background-color: #ff5858;
+}
+
+.footerh3{
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.callAppointmentbtn {
+    margin-top: 20px;
+    width: 70%;
+    height: 60px;
+    border: 3px solid #ff5858;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    transition: all 1s;
+}
+
+.callAppointmentbtn:hover {
+    background-color: #ff5858;
+    transition: all 1s;
+   
+}
+
+
+footer{
+    min-height: 30vh;
+    background-color: #8d1b1b;
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+}
+
+
+
+
+/* @media screen and (max-width: 1400px) {
+
+    .icons {
+        margin-top: 20px;
+        width: 70px;
+        height: 60px;
+        border-radius: 100%;
+        padding: 13px;
+        margin-right: 20px;
+    }
+
+    .bgimg {
+        width: 100%;
+        min-height: 10vh;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .imgtext h3 {
+        margin-top: 20px;
+        font-size: 21px;
+    }
+
+    .imgtext p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+
+
+    .brder h6 {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .text-section {
+        padding-top: 50px;
+    }
+
+    .headerSectionBG span {
+        font-size: 9px;
+        font-weight: 600;
+        color: #141414;
+        font-family: Poppins, sans-serif;
+    }
+
+    .headerSectionBG h1 {
+        margin-top: 0;
+        font-size: 25px;
+        font-weight: 900;
+        color: #141414;
+        font-family: Poppins, sans-serif;
+    }
+
+    .headerSectionBG p {
+        margin-top: 0;
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+
+    button.bookapp.btn.btn-primary {
+        width: 170px;
+        padding: 8px;
+        font-size: 10px;
+        background-color: rgb(62, 140, 255);
+        font-weight: 700;
+        border-radius: 22x;
+        outline-style: none;
+        border: none;
+    }
+
+    .thirdPA {
+        width: 90% !important;
+        position: relative;
+        bottom: 30px;
+
+    }
+
+    .secondSec {
+        position: relative;
+        bottom: 70px;
+        background-color: rgb(243, 250, 255);
+        height: auto;
+        margin-top: 50px;
+
+
+    }
+} */
+
+
+@media screen and (max-width: 400px) {
+
+    
+
+    .bgimg {
+        width: 100%;
+        max-height: 109vh;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .imgtext h3 {
+        margin-top: 20p x;
+        font-size: 12px;
+    }
+
+    .imgtext p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+
+
+    .brder h6 {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .text-section {
+        padding-top: 50px;
+    }
+
+    .headerSectionBG span {
+        font-size: 9px;
+        font-weight: 600;
+        color: #141414;
+        font-family: Poppins, sans-serif;
+    }
+
+    .headerSectionBG h1 {
+        margin-top: 0;
+        font-size: 25px;
+        font-weight: 900;
+        color: #141414;
+        font-family: Poppins, sans-serif;
+    }
+
+    .headerSectionBG p {
+        margin-top: 0;
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+
+    button.bookapp.btn.btn-primary {
+        width: 170px;
+        padding: 8px;
+        font-size: 10px;
+        background-color: rgb(62, 140, 255);
+        font-weight: 700;
+        border-radius: 22x;
+        outline-style: none;
+        border: none;
+    }
+
+    .thirdPA {
+        width: 90% !important;
+        position: relative;
+        bottom: 30px;
+
+    }
+
+    .secondSec {
+        position: relative;
+        bottom: 70px;
+        background-color: rgb(243, 250, 255);
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+    .BENEFITSOFCONSULTATION{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .BENEFITSOFCONSULTATION h1 {
+        margin-top: 15px;
+        font-weight: 800;
+        color: black;
+        font-family: poppins, sans-serif;
+    }
+    
+    .BENEFITSOFCONSULTATION p {
+        margin-top: 20px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        color: #555555;
+    }
+    
+    .BENEFITSOFCONSULTATIONSubDiv{
+        width: 100%;
+        height: 75px;
+        border: 1px solid #3E8CFF;
+        background-color: #f3faff;
+        padding: 15px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .BENEFITSOFCONSULTATIONSubDivhref{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .BENEFITSOFCONSULTATIONSubDiv {
+        /* line-height: 50px; */
+        background-color: rgb(243, 250, 255);
+        transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s
+    }
+    
+    .BENEFITSOFCONSULTATIONSubDiv:hover {
+        box-shadow: 5px 5px 5px grey;
+        background-color: white;
+        border: 2px solid rgb(62, 140, 255);
+        /* transform: scale(1.05); */
+        /* transform : scale(1.1); */
+    }
+
+    .BENEFITSOFCONSULTATIONSubDiv h5{
+        font-size: 11px;
+        
+    }
+
+    
+    .backg{
+        width: 45px;
+        height: 40px;
+        background-color: #3E8CFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .mid{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    
+    }
+
+    /* .testimonialsBiG{
+        display: flex;
+        flex-direction: column;
+    } */
+
+
+}
+
+@media screen and (min-width: 1366px) {
+
+    .icons {
+        margin-top: 20px;
+    }
+
+    .bgimg {
+        width: 100%;
+        min-height: 10vh;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .imgtext h3 {
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .imgtext p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .brder {}
+
+    .brder h6 {
+        font-size: 10px;
+    }
+
+    .text-section {
+        padding-top: 50px;
+    }
+
+    .headerSectionBG span {
+        font-size: 13px;
+        font-weight: 600;
+        color: #141414;
+        font-family: Poppins, sans-serif;
+    }
+
+    .headerSectionBG h1 {
+        margin-top: 25px;
+        font-size: 40px;
+        font-weight: 900;
+        color: #141414;
+        font-family: Poppins, sans-serif;
+    }
+
+    .headerSectionBG p {
+        /* margin-top: 25px; */
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    button.bookapp.btn.btn-primary {
+        width: 190px;
+        padding: 15px;
+        font-size: 12px;
+        background-color: rgb(62, 140, 255);
+        font-weight: 700;
+        border-radius: 17px;
+        outline-style: none;
+        border: none;
+    }
+
+    .thirdPA {
+        width: 90% !important;
+        position: relative;
+        bottom: 30px;
+        /* padding: 10px; */
+    }
+
+    .secondSec {
+        position: relative;
+        bottom: -20px;
+        background-color: rgb(243, 250, 255);
+        height: auto;
+        margin-top: 50px;
+    }
+
+    
+}
+
+/* SLIDER  */
+.slider{
+    margin: 0 40px;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .arrowButton{
+    
+    position: absolute !important;
+    top: 0% !important;
+    color: black !important; 
+    /* width: 20px !important;
+    height: 20px !important; */
+    background-color: white !important;
+    opacity: 100%;
+    padding: 30px !important;
+    border-radius: 10px;
+  }
+  .arrowButton.left{
+    left: 0px !important;
+  }
+  .arrowButton.right{
+    right: 0 !important;
+  }
+  .arrowButton:hover{
+    border: 2px solid #71a9fc !important;
+  }
+  .arrowButton::after{
+    font-size: 20px !important;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }

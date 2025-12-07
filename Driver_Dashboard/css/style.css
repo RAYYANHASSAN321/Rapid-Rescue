@@ -1,0 +1,10 @@
+/* Registration_system  Styles*/
+.admin-user{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
